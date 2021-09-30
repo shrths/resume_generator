@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="vieww" content="description" />
+  <title>resume- form</title>
+  <link rel="stylesheet" href="resume_style_form.css" />
+</head>
+<body>
+  <header>
+    <div class="head">
+      <img src="Bionic1.png" alt="Bionic Engineer Logo" ">
+    </div>
+    <div class="cname">
+      <h1>Bionic Engineers</h1>
+      <h2>Togeather To Get Better</h2>
+    </div>
+  </header>
+  <section>
+    <h2 class="aname">Please fill the form with proper data</h2>
+    <h2 class="aname">RESUME FORM</h2>
+    
+    <div class="aform">
+      <form method="POST" action="resume_index.php">
+        <h3>Personal details</h3>
+        <div class="form-grp">
+          <label for="name">Name</label>
+          <input
+            class="c-input"
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+        <div class="form-grp">
+          <label for="phone">Phone number</label>
+          <input
+            class="c-input"
+            type="text"
+            id="phone"
+            name="phone"
+            placeholder="Enter your Phone number"
+            required
+          />
+        </div>
+        <div class="form-grp">
+          <label for="email">Email</label>
+          <input
+            class="c-input"
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter your Email-id"
+            required
+          />
+        </div>
+        
+        <div class="form-grp">
+          <label for="LinkedIn">LinkedIn profile</label>
+          <input
+            class="c-input"
+            type="text"
+            id="LinkedIn"
+            name="LinkedIn"
+            placeholder="paste your LinkedIn profile link here"
+          />
+        </div>
+        <div class="form-grp">
+          <label for="bio">Add bio/ Objective (keep it less then 3 to 4 sentances.)</label>
+          <textarea
+            class="c-input"
+            rows="3"
+            cols="100"
+            maxlength="250"
+            type="text"
+            id="bio"
+            name="bio"
+            placeholder="type here"
+            required
+          ></textarea>
+        </div>
+        <h3>Education details</h3>
+        <div class="form-grp">
+          <label for="school">School name</label>
+          <input
+            class="c-input"
+            type="text"
+            id="school"
+            name="school"
+            placeholder="enter school name"
+            required
+          />
+        </div>
+        <div class="form-grp">
+          <label for="syop">10th year of passing</label>
+          <input
+            class="c-input"
+            type="number"
+            id="syop"
+            name="syop"
+            placeholder="type year of passing"
+            required
+          />
+        </div>
+        <div class="form-grp">
+          <label for="sp">10th Percentage or CGPA</label>
+          <input
+            class="c-input"
+            type="text"
+            id="sp"
+            name="sp"
+            placeholder="type here"
+            required
+          />
+        </div>
+        <div class="form-grp">
+          <label for="puc">PU college name</label>
+          <input
+            class="c-input"
+            type="text"
+            id="puc"
+            name="puc"
+            placeholder="Enter college name"
+            required
+          />
+        </div>
+        <div class="form-grp">
+          <label for="pyop">PU year of passing</label>
+          <input
+            class="c-input"
+            type="number"
+            id="pyop"
+            name="pyop"
+            placeholder="type year of passing"
+            required
+          />
+        </div>
+        <div class="form-grp">
+          <label for="pp">PU Percentage or CGPA</label>
+          <input
+            class="c-input"
+            type="text"
+            id="pp"
+            name="pp"
+            placeholder="type here"
+            required
+          />
+        </div>
+        <div class="form-grp">
+          <label for="degree">degree college name</label>
+          <input
+            class="c-input"
+            type="text"
+            id="degree"
+            name="degree"
+            placeholder="enter college name"
+          />
+        </div>
+        <div class="form-grp">
+          <label for="dyop">degree year of passing</label>
+          <input
+            class="c-input"
+            type="number"
+            id="dyop"
+            name="dyop"
+            placeholder="type year of passing"
+          />
+        </div>
+        <div class="form-grp">
+          <label for="dp">Degree percentage or CGPA</label>
+          <input
+            class="c-input"
+            type="text"
+            id="dp"
+            name="dp"
+            placeholder="type here"
+            required
+          />
+        </div>
+        <h3>Projects</h3>
+        <h5>We suggest you to add your top 3 Projects.</h5>
+        <div class="form-grp">
+          <label for="p1">Project 1 </label>
+          <input
+            class="c-input"
+            type="text"
+            id="p1"
+            name="p1"
+            placeholder="Enter the project name here"
+          />
+          <textarea
+          rows="3"
+          cols="100"
+          maxlength="500"
+            class="c-input"
+            type="text"
+            id="p11"
+            name="p11"
+            placeholder="description (less then 500 letters)"
+          ></textarea>
+        </div>
+        <div class="form-grp">
+          <label for="p2">Project 2 </label>
+          <input
+            class="c-input"
+            type="text"
+            id="p2"
+            name="p2"
+            placeholder="Enter the project name here"
+          />
+          <textarea
+          rows="3"
+          cols="100"
+          maxlength="500"
+            class="c-input"
+            type="text"
+            id="p22"
+            name="p22"
+            placeholder="description (less then 500 letters)"
+          ></textarea>
+        </div>
+        <div class="form-grp">
+          <label for="p3">Project 3 </label>
+          <input
+            class="c-input"
+            type="text"
+            id="p3"
+            name="p3"
+            placeholder="Enter the project name here"
+          />
+          <textarea
+          rows="3"
+          cols="100"
+          maxlength="500"
+            class="c-input"
+            type="text"
+            id="p33"
+            name="p33"
+            placeholder="description (less then 500 letters)"
+          ></textarea>
+        </div>
+        <h3>Certificate</h3>
+        <h5>We suggest you to add your top 3 certification courses.</h5>
+        <div class="form-grp">
+          <label for="c1">course 1 </label>
+          <input
+            class="c-input"
+            type="text"
+            id="c1"
+            name="c1"
+            placeholder="Enter the course title"
+          />
+          <textarea
+          rows="3"
+          cols="100"
+          maxlength="250"
+            class="c-input"
+            type="text"
+            id="c11"
+            name="c11"
+            placeholder="description (less then 250 letters)"
+          ></textarea>
+        </div>
+        <div class="form-grp">
+          <label for="c2">course 2 </label>
+          <input
+            class="c-input"
+            type="text"
+            id="c2"
+            name="c2"
+            placeholder="Enter the course title"
+          />
+          <textarea
+          rows="3"
+          cols="100"
+          maxlength="250"
+            class="c-input"
+            type="text"
+            id="c22"
+            name="c22"
+            placeholder="description (less then 250 letters)"
+          ></textarea>
+        </div>
+        <div class="form-grp">
+          <label for="c3">course 3 </label>
+          <input
+            class="c-input"
+            type="text"
+            id="c3"
+            name="c3"
+            placeholder="Enter the course title"
+          />
+          <textarea
+          rows="3"
+          cols="100"
+          maxlength="250"
+            class="c-input"
+            type="text"
+            id="c33"
+            name="c33"
+            placeholder="description (less then 250 letters)"
+          ></textarea>
+        </div>
+        <h3>Technical skills</h3>
+        
+        <div class="form-grp">
+          <label for="prog">Programming languages</label>
+          <input
+            class="c-input"
+            type="text"
+            id="prog"
+            name="prog"
+            placeholder="(C,C++,java, Python,...)"
+          />
+        </div>
+        <div class="form-grp">
+          <label for="web">Web Technology</label>
+          <input
+            class="c-input"
+            type="text"
+            id="web"
+            name="web"
+            placeholder="HTML,CSS, PHP,..."
+          />
+        </div>
+        <div class="form-grp">
+          <label for="os">Packages & Operating Environment familiarity</label>
+          <input
+            class="c-input"
+            type="text"
+            id="os"
+            name="os"
+            placeholder="(Windows, Linux,...)"
+          />
+        </div>
+        <div class="form-grp">
+          <label for="db">Databases</label>
+          <input
+            class="c-input"
+            type="text"
+            id="db"
+            name="db"
+            placeholder="(MQSQL,MongoDB,...)"
+          />
+        </div>
+        <div class="form-grp">
+          <label for="cs">Courses of Interest</label>
+          <input
+            class="c-input"
+            type="text"
+            id="cs"
+            name="cs"
+            placeholder="(Web Development, Networking,..."
+          />
+        </div>
+        <div  class="button">
+          <input class="button"type="submit"value="submit"name=" ">
+          </div>
+      </form>
+    </div>
+  </section>
+</body>
